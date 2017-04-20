@@ -1,0 +1,34 @@
+@Entity
+@Audited
+@Data
+@EqualsAndHashCode
+public class Document {
+ 
+  public Document() {
+    this.status = Status.NEW;
+  }
+ 
+  @Id
+  @GeneratedValue(strategy = IDENTITY)
+  private Long id;
+ 
+  @Enumerated(value = STRING)
+  private Status status;
+ 
+  @OneToOne(cascade = {PERSIST, MERGE}, fetch = EAGER)
+  @JoinColumn(name = "client_card_id")
+  private ClientCard clientCard;
+ 
+  @NotNull
+  @DateTimeFormat(iso = ISO.DATE)
+  private LocalDate date;
+ 
+  public enum Status {
+    NEW, PRE, CONFIRMED
+  }
+ 
+  public int getWeekNumber(LocalDate date) {
+ 
+    WeekFields weekFields = WeekFields.of(Locale.getDefault());
+    return date.get(weekFields.weekOfWeekBasedYear());
+  }

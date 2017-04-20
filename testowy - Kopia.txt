@@ -1,0 +1,18 @@
+function TForm1.SearchList(data:WideString; Sort:Boolean; List:TList<TDane >): Integer;
+var Comparer: IComparer<TDane >;
+    Dummy: TDane ;
+begin
+ 
+  Comparer := TDelegatedComparer<TDane >.Construct(
+    function (const L, R: TDane ): Integer
+    begin
+      Result := Sign(VarToDateTime(L.Data) - VarToDateTime(R.Data));
+    end
+  );
+ 
+  if Sort then List.Sort(Comparer);
+ 
+  Dummy.Data := data;
+ 
+  if not List.BinarySearch(Dummy, Result, Comparer) then
+    Result := -1;

@@ -1,0 +1,64 @@
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+System.out.println("-----------WYBIERZ OPCJE-------------");
+System.out.println("---------1.MNOZENIE------------------");
+System.out.println("---------2.DZIELENIE-------------");
+System.out.println("---------3.ODEJMOWANIE-------------");
+System.out.println("---------4.DODAWANIE-------------");
+System.out.println("---------5-COKOLWIEK-------------");
+int wybor=scanner.nextInt();
+ 
+switch (wybor) 
+{
+case 1:
+int wynik;
+System.out.println("Podaj 1 liczbê przez ktora bedziesz mnozyl");
+int l1=scanner.nextInt();
+System.out.println("Podaj 2 liczbê przez ktora bedziesz mnozyl");
+int l2=scanner.nextInt();
+wynik=l1*l2;
+System.out.println("Wynik mno¿enia to "+wynik);
+break;
+case 2:
+ 
+System.out.println("Podaj 1 liczbê przez ktora bedziesz dzielil");
+int l3=scanner.nextInt();
+System.out.println("Podaj 2 liczbê przez ktora bedziesz dzielil");
+int l4=scanner.nextInt();
+wynik=l3/l4;
+System.out.println("Wynik mno¿enia to "+wynik);
+break;
+case 3:
+ 
+System.out.println("Podaj 1 liczbê ktora bedzie odejmowal");
+int l5=scanner.nextInt();
+System.out.println("Podaj 2 liczbê ktora bedziesz odejmowal");
+int l6=scanner.nextInt();
+wynik=l5-l6;
+System.out.println("Wynik mno¿enia to "+wynik);
+break;
+case 4:
+ 
+System.out.println("Podaj 1 liczbê przez ktora bedziesz mnozyl");
+int l7=scanner.nextInt();
+System.out.println("Podaj 2 liczbê przez ktora bedziesz mnozyl");
+int l8=scanner.nextInt();
+wynik=l7+l8;
+System.out.println("Wynik mno¿enia to "+wynik);
+break;
+case 5:
+System.out.println("COKOLWIEK");
+System.out.println("Podaj imiê");
+String imie = scanner.next();
+System.out.println("Podaj wiek");
+ 
+int wiek=scanner.nextInt();
+System.out.println("Twoje imie to " +imie +", twój wiek : " +wiek);
+ 
+break;
+ 
+default:
+System.out.println("Nie wybrales zadnej opcji");
+}

@@ -1,0 +1,20 @@
+class SilnikDiesla extends Silnik{
+    private final String rodzaj = "Diesel";
+ 
+    private double swieceZarowe;
+ 
+    public SilnikDiesla( ... )
+    {
+        super( ...  );
+        // iniciowanie pola
+    }
+ 
+    /**
+     * gettery i settery
+     */
+ 
+    /**
+     * Metody do operacji na wartoœci pól
+     */
+}
+ 

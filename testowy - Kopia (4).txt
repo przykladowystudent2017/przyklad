@@ -1,0 +1,3 @@
+ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream( "/data/plik"));
+            out.writeObject(listArray);
+            out.close();

@@ -1,0 +1,20 @@
+class SilnikBenzynowyTurbo extends SilnikBenzynowy{
+    private final String rodzaj = "Benzynowy Turbo";
+ 
+    private double turbo;
+ 
+    public SilnikBenzynowyTurbo( ... )
+    {
+        super( ... );
+        // iniciowanie pola
+    }
+ 
+    /**
+     * gettery i settery
+     */
+ 
+    /**
+     * Metody do operacji na wartoœci pól
+     */
+ 
+}

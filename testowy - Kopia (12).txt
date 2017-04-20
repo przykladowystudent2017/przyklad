@@ -1,0 +1,21 @@
+class SilnikBenzynowy extends Silnik{
+    private final String rodzaj = "Benzynowy";
+ 
+    private double swieceZaplonowe, cewkaZaplonowa, przewodyWN;
+ 
+    public SilnikBenzynowy(  ...  )
+    {   
+        super( ... );
+        // iniciowanie pól
+ 
+    }
+ 
+    /**
+     * Gettery i settery
+     */
+ 
+    /**
+     * Metody do obslugi wartosci pol itp. 
+     */
+ 
+}

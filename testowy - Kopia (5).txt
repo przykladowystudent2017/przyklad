@@ -1,0 +1,28 @@
+import java.awt.*;
+ 
+public class Main {
+ 
+    public static void main(String[] args) {
+        Firma firma = new Firma();
+        Pracownik pracownik1 = new Pracownik("Adam"," Matys",1987);
+        Pracownik pracownik2 = new Pracownik("Marek"," Des",1966);
+        Pracownik pracownik3 = new Pracownik("Jan"," Wold",1990);
+        Pracownik pracownik4 = new Pracownik("Anna"," Nowak",1980);
+ 
+        firma.nowyPracownik(pracownik1);
+        firma.nowyPracownik(pracownik2);
+        firma.nowyPracownik(pracownik3);
+        firma.nowyPracownik(pracownik4);
+ 
+        for(int i=0;i<firma.getPracowniks().size();i++){
+            System.out.println(firma.getPracowniks().get(i));
+        }
+ 
+        firma.usun("Jan");
+        System.out.print("PO USUNIECIU\n");
+        for(int i=0;i<firma.getPracowniks().size();i++){
+            System.out.println(firma.getPracowniks().get(i));
+        }
+    }
+}
+ 

@@ -1,0 +1,9 @@
+procedure TForm1.FormCreate(Sender: TObject);
+var
+  Ikonka: TIcon;
+begin
+  Ikonka := TIcon.Create;
+  Ikonka.LoadFromFile('mojaIkona.ico');
+  Application.Icon := Ikonka;
+  Ikonka.Free;
+end;

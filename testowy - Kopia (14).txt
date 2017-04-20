@@ -1,0 +1,31 @@
+ 
+class SilnikTurboDiesel extends SilnikDiesla{
+    private final String rodzaj = "Turbo Diesel";
+ 
+    private double turbo, wtryskiwacze, filtrDPF;
+    private boolean isDPF;
+ 
+    public SilnikTurboDiesel( ... )
+    {
+        super( ... );
+        // iniciowanie pól
+    }
+ 
+    /**
+     * Kolejny konstruktor, potrzebny by³, implementacja raczej nie wa¿na :)
+     */
+    public SilnikTurboDiesel( ... )
+    {
+        super( ... );
+        // iniciowanie pól
+    }
+ 
+    /**
+     * gettery i settery
+     */
+ 
+    /**
+     * Metody do operacji na wartoœci pól
+     */
+}
+ 

@@ -1,0 +1,21 @@
+<form method="POST" action="https://4programmers.net/Login" accept-charset="UTF-8"><input name="_token" type="hidden" value="uWO54HL5cS0Av3MA79ZbWGBUyUmuFSCRWWPKjp3J">
+ 
+<div class="form-group">
+ 
+<label class="control-label">Nazwa u¿ytkownika <em>*</em></label>    
+            <input autofocus="autofocus" class="form-control" name="name" type="text">
+ 
+            </div>
+ 
+<div class="form-group">
+ 
+<label class="control-label">Has³o <em>*</em></label>    
+            <input class="form-control" name="password" type="password" value="">
+ 
+            </div>
+ 
+                    <div class="form-group">
+ 
+                        <button data-submit-state="Logowanie..." class="btn btn-primary" type="submit">Logowanie</button><a href="https://4programmers.net/Password" style="margin-left: 15px">Zapomnia³eœ has³a?</a>
+                    </div>
+                </form>

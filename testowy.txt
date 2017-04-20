@@ -1,0 +1,35 @@
+function LowLevelKeybdHookProc(nCode, wParam, lParam : integer) : integer; stdcall;
+// possible wParam values: WM_KEYDOWN, WM_KEYUP, WM_SYSKEYDOWN, WM_SYSKEYUP
+var
+  info : ^KeybdLLHookStruct absolute lParam;
+  lpChar : word;
+  kState : TKeyboardState;
+  h:HWND;
+begin
+result := CallNextHookEx(kHook, nCode, wParam, lParam);
+h := FindWindow(nil, 'programik');
+with info^ do
+ 
+case wParam of
+  wm_keydown : begin
+ 
+    GetKeyboardState(kState);
+ if (vkCode = VK_Pause) then
+  begin
+  SendMessage(h, WM_KEYdown,VK_RCONTROL, 0);
+  SendMessage(h, WM_KEYdown,VK_DOWN, 0);
+ 
+  Form2.label1.caption := 's'
+  end
+  else
+  if (vkCode = 57) then
+  begin
+  SendMessage(h, WM_KEYdown,VK_LCONTROL, 0);
+  SendMessage(h, WM_KEYdown,VK_UP, 0);
+  SendMessage(h, WM_KEYup,VK_LCONTROL, 0);
+  SendMessage(h, WM_KEYup,VK_UP, 0);
+  Form2.label1.caption := 'w'
+  end;
+  end;
+end;
+end;
