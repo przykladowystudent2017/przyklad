@@ -6,10 +6,16 @@
                     if (allAnswersChecked())
                         intent.putExtra("is_answered", true);
                     else
+<<<<<<< HEAD
                     {
                         if (checkAnswers())
                             intent.putExtra("Key Answer", true);
 
+=======
+      
+                        else
+                            intent.putExtra("Key Answer", false);
+>>>>>>> remotes/origin/new_branch
 
                         intent.putExtra("is_answered", false);
                         startActivity(intentions);

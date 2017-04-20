@@ -10,17 +10,28 @@ class SilnikTurboDiesel extends SilnikDiesla{
         super( ... );
         // iniciowanie pól
     }
+<<<<<<< HEAD
  
     /**
      * Kolejny konstruktor, potrzebny był, implementacja raczej nie ważna :)
      */
     public SilnikTurboDiesel( ... )
+=======
+lnikTurboDiesel( ... )
+>>>>>>> remotes/origin/new_branch
     {
         super( ... );
         // iniciowanie pól
     }
  
     /**
+<<<<<<< HEAD
+=======
+     * gettery i settery
+     */
+ 
+    /**
+>>>>>>> remotes/origin/new_branch
      * Metody do operacji na wartości pól
      */
 }

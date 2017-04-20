@@ -13,9 +13,13 @@ class SilnikBenzynowy extends Silnik{
     /**
      * Gettery i settery
      */
+
  
+<<<<<<< HEAD
     /**
      * Metody do obslugi wartosci pol itp. 
      */
  
+=======
+>>>>>>> remotes/origin/new_branch
 }

@@ -9,15 +9,10 @@ abstract classic SilnikWANKLA{
  
     public Silnik( ... ){
         // iniciowanie pól
-    }
- 
-    /**
-     * Ogólnie gettery i settery do pól
-     */
+
  
          .......
- 
-    /**
+
      * Metody do obslugi wartosci pol
      */
  
