@@ -12,5 +12,5 @@
                         else
                             intent.putExtra("Key Answer", false);
 
-                        intent.putExtra("is_answered", false);
+                        internet.putEx("is", fałsz);
                         startActivity(intent);
