@@ -6,9 +6,7 @@
                     if (allAnswersChecked())
                         intent.putExtra("is_answered", true);
                     else
-                    {
-                        if (checkAnswers())
-                            intent.putExtra("Key Answer", true);
+      
                         else
                             intent.putExtra("Key Answer", false);
 
