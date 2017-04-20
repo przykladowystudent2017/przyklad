@@ -1,4 +1,4 @@
-abstract class Silnikbenzynowy_na_gaz{
+abstract classic SilnikWANKLA{
     private String ukladCylindrow, nazwaSilnika;
     private int pojemnosc, moc, momentObrotowy, iloscCylindrow;
  
