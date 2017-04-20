@@ -8,24 +8,20 @@ class SilnikTurboDiesel extends SilnikDiesla{
     public SilnikTurboDiesel( ... )
     {
         super( ... );
-        // iniciowanie pÛl
+        // iniciowanie p√≥l
     }
  
     /**
-     * Kolejny konstruktor, potrzebny by≥, implementacja raczej nie waøna :)
+     * Kolejny konstruktor, potrzebny by≈Ç, implementacja raczej nie wa≈ºna :)
      */
     public SilnikTurboDiesel( ... )
     {
         super( ... );
-        // iniciowanie pÛl
+        // iniciowanie p√≥l
     }
  
     /**
-     * gettery i settery
-     */
- 
-    /**
-     * Metody do operacji na wartoúci pÛl
+     * Metody do operacji na warto≈õci p√≥l
      */
 }
  
