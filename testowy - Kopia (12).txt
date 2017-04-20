@@ -3,10 +3,10 @@ class SilnikBenzynowy extends Silnik{
  
     private double swieceZaplonowe, cewkaZaplonowa, przewodyWN;
  
-    public SilnikBenzynowy(  ...  )
+
     {   
         super( ... );
-        // iniciowanie pól
+        // iniciowanie pÃ³l
  
     }
  
