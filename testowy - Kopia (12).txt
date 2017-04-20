@@ -6,16 +6,13 @@ class SilnikBenzynowy extends Silnik{
     public SilnikBenzynowy(  ...  )
     {   
         super( ... );
-        // iniciowanie pól
+        // iniciowanie pÃ³l
  
     }
  
     /**
      * Gettery i settery
      */
- 
-    /**
-     * Metody do obslugi wartosci pol itp. 
-     */
+
  
 }
