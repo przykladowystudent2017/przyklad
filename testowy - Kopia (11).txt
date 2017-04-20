@@ -1,4 +1,4 @@
-abstract class Silnik{
+abstract class Silnikbenzynowy_na_gaz{
     private String ukladCylindrow, nazwaSilnika;
     private int pojemnosc, moc, momentObrotowy, iloscCylindrow;
  
@@ -8,11 +8,11 @@ abstract class Silnik{
     public Silnik(){}
  
     public Silnik( ... ){
-        // iniciowanie pól
+        // iniciowanie pÃ³l
     }
  
     /**
-     * Ogólnie gettery i settery do pól
+     * OgÃ³lnie gettery i settery do pÃ³l
      */
  
          .......
