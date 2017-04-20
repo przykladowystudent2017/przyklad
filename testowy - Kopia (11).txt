@@ -2,7 +2,7 @@ abstract classic SilnikWANKLA{
     private String ukladCylindrow, nazwaSilnika;
     private int pojemnosc, moc, momentObrotowy, iloscCylindrow;
  
-    private double rozrzadKompletny, sprzeglo, pasekOsprzetu, filtrPowietrza, filtrOleju, glowica, tloki, walKorbowy, panewki, chlodnica, ukladWydechowy;
+    
     private double iloscOleju, iloscPlynuChlodniczego, jakoscOleju, jakoscPlynuChlodniczego;
  
     public Silnik(){}
