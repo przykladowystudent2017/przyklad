@@ -7,14 +7,10 @@ class SilnikBenzynowyTurbo extends SilnikBenzynowy{
     {
         super( ... );
         // iniciowanie pola
-    }
+
  
     /**
-     * gettery i settery
-     */
- 
-    /**
-     * Metody do operacji na wartoúci pÛl
+     * Metody do operacji na warto≈õci p√≥l
      */
  
 }
